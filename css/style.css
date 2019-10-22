@@ -1,0 +1,273 @@
+/*Modifie l'ensemble du site*/
+*
+{
+	font-family: comic sans MS;
+}
+
+/*Modifie le corps du site*/
+body
+{
+	background-color: rgb(9,30,130);
+	
+}
+
+/*Modifie la class "logo"*/
+.logo
+{
+	float: left;				/*permet de mettre le logo sur le fond*/
+	margin-left: 2%;			/*ajuste le placement*/
+	margin-top: 1%;				/*ajuste le placement*/
+	border-radius: 10px;
+}
+
+/*Modifie l'en-tête*/
+header
+{
+	background-image: url("../assets/Images/pacman.jpg");	/*Met l'image pacman.jpg en fond*/
+	background-size: 17.5%;					/*Modifie la taille*/
+	background-position: center;			/*Centre le fond*/
+	background-color: black;				/*Fond noir*/
+	border-radius: 50px;					/*Arrondie les bords*/
+	overflow: auto;
+}
+
+/*Modifie la class h1*/
+.h1
+{
+	font-size: 40pt;
+	color: yellow;
+	margin-left: 35%;
+}
+
+/*modifie les nav*/
+nav
+{
+	border: 13pt rgb(16,0,108) solid;
+	overflow: auto;
+}
+
+/*Modifie les autres rubriques*/
+.rubrique
+{
+	font-size: 22pt;
+	margin-left: 2.75%;
+	display: inline;
+	list-style-type: disc;
+}
+
+nav a
+{
+	color: black;
+	text-decoration: none;
+}
+
+nav a:visited
+{
+	color: black;
+}
+
+nav a:hover
+{
+	color: yellow;
+	text-decoration: underline;
+}
+
+h2
+{
+	position: center;
+	font-size: 30pt;
+	color: yellow;
+}
+
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+	overflow: auto;
+}
+
+article
+{
+	margin-left: 15%;
+	border: 5pt rgb(0,0,0) solid;
+	background-color: yellow;
+	width: 700pt;
+}
+
+article p
+{
+	margin-left: 3%;
+}
+
+aside
+{
+	/*position: absolute;*/
+	border: 5pt rgb(0,0,0) solid;
+	background-color: yellow;
+}
+
+.score
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/high_score.jpg");
+	background-repeat: no-repeat;
+	background-size: 16%;
+	padding-left: 25pt;
+	padding-bottom: 1pt;
+}
+
+.pacman_girl
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Ms Pac Man.jpg");
+	background-repeat: no-repeat;
+	background-size: 16%;
+	padding-left: 25pt;
+	padding-bottom: 1pt;
+}
+
+.joystick
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Joystick.jpg");
+	background-repeat: no-repeat;
+	background-size: 16%;
+	padding-left: 25pt;
+	padding-bottom: 1pt;
+}
+
+.mario
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/bloc-mario.jpg");
+	background-repeat: no-repeat;
+	background-size: 16%;
+	padding-left: 25pt;
+	padding-bottom: 1pt;
+}
+
+aside a
+{
+	color: black;
+}
+
+aside a:hover
+{
+	text-decoration: underline;
+}
+
+footer
+{
+	background-color: rgb(16,0,108);
+	word-wrap: break-word;
+	height: 233pt;
+}
+
+#Gif
+{
+	background-color: black;
+	height: 75.5pt;
+}
+
+#Gif img
+{
+	padding: 0%;
+	vertical-align: top;
+	margin: -2px;
+	background-color: black;
+	margin-top: 1pt;
+}
+
+#resumer, #les_liens, #remerciements
+{
+	display: inline-block;
+	margin-left: 2.5%;
+	vertical-align: top;
+}
+
+h3
+{
+	margin-left: 5%;
+	color: yellow;
+	font-size: 20pt;
+}
+
+#resumer
+{
+
+	width: 30%;
+}
+
+#les_liens
+{
+
+	width: 24%;
+}
+
+.ghost1
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Blinky.jpg");
+	background-repeat: no-repeat;
+	background-size: 8.8%;
+	padding-left: 25pt;
+	padding-bottom: 1pt;
+}
+
+.ghost2
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Pinky.jpg");
+	background-repeat: no-repeat;
+	background-size: 8.8%;
+	padding-left: 25pt;
+	padding-bottom: 3pt;
+}
+
+.ghost3
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Inky.jpg");
+	background-repeat: no-repeat;
+	background-size: 8.8%;
+	padding-left: 25pt;
+	padding-bottom: 3pt;
+}
+
+.ghost4
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Clyde.jpg");
+	background-repeat: no-repeat;
+	background-size: 8.8%;
+	padding-left: 25pt;
+	padding-bottom: 3pt;
+}
+
+div a
+{
+	margin-left: 2.5%;
+	color: orange;
+	text-decoration: none;
+}
+
+div a:visited
+{
+	color: orange;
+}
+
+div a:hover
+{
+	color: yellow;
+	text-decoration: underline;
+}
+
+#remerciements
+{
+	width: 30%;
+}
+
+div p
+{
+	color: orange;
+}

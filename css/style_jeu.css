@@ -1,0 +1,23 @@
+h2
+{
+	margin-left: 48%;
+}
+
+.credit
+{
+	font-size: 14pt;
+	color: black;
+}
+
+.autre
+{
+	position: center;
+	margin-right: 2%;
+}
+
+.autre img
+{
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 1.5%;
+}

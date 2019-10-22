@@ -1,0 +1,57 @@
+h2
+{
+	margin-left: 39%;
+}
+
+article
+{
+	height: 400%;
+}
+
+article a
+{
+	border: 5px solid rgb(9,30,130);
+	margin-left: 3.5%;
+	font-size: 15pt;
+	color: black;
+	text-decoration: none;
+}
+
+article a:visited
+{
+	color: black;
+}
+
+article a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+article id
+{
+	color: orange;
+	font-size: 20%;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 5pt;
+}
+
+th
+{
+	font-size: 14pt;
+}
+
+td
+{
+	border: 1px solid black;
+}
+
+.a
+{
+	width: 172pt;
+	height: 172pt;
+}

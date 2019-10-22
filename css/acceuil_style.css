@@ -1,0 +1,88 @@
+article
+{
+	height: 520pt;
+}
+
+.lettrine
+{
+	margin-top: 7%;
+	margin-left: 2%;
+	float: left;
+}
+ 
+.text_accueil
+{
+	margin-top: 5%;
+	margin-left: 34%;
+	margin-right:5%;
+	color: rgb(16,0,108);
+	font-size: 30px;
+}
+
+.image_accueil
+{
+	margin-top: 5%;
+	
+	float: left;
+	margin-left: 26%
+}
+
+.sous_texte_accueil
+{
+	margin-top: 17%;
+	margin: center;
+	color: rgb(16,0,108);
+	font-size: 45px;
+}
+
+.coté_texte_accueil
+{
+	margin-top: 17%;
+	margin: center;
+	color: rgb(16,0,108);
+	font-size: 20px;
+	margin-left: 40%;
+}
+
+.iut
+{
+	float: left;
+}
+
+.contactez
+{
+	margin-top: 5%;
+	margin-left: 34%;
+	margin-right:5%;
+	color: rgb(16,0,108);
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.Noémy
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Pinky_noémy.png");
+	background-repeat: no-repeat;
+	background-size: 6%;
+	padding-left: 35pt;
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right:5%;
+	color: rgb(16,0,108);
+	font-size: 25px;
+}
+
+.Grégoire
+{
+	list-style-type: none;
+	background-image: url("../assets/Images/Inky_greg.png");
+	background-repeat: no-repeat;
+	background-size: 6%;
+	padding-left: 35pt;
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right:5%;
+	color: rgb(16,0,108);
+	font-size: 25px;
+}

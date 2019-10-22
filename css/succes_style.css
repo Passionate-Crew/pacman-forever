@@ -1,0 +1,24 @@
+h2
+{
+	margin-left: 48%;
+}
+
+table
+{
+	border-collapse: collapse; 	/*les bordures du tableau seront collées*/
+	margin-left: 10%; 			/*decale le tableau de 10% vers la droite*/
+}
+
+td
+{
+	border: 1px solid black;	/*Crée des bordures au tableau*/
+	text-align: center;
+}
+
+.Pacman_Family
+{
+	float: right;
+	margin-right: 10%;
+	margin-top: 2.5%;
+	border-radius: 5px;
+}
